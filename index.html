@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayan - Expert Business Solutions</title>
+    <meta name="description" content="Enhance Organizational Performance with Expert Advice">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">Bayan</div>
+        <nav class="main-nav">
+            <a href="mailto:Support@ConsultBayan.com?subject=Book%20a%20Meeting" class="btn">Book a Free Consultation</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Sustainable Growth</h1>
+                <p>Enhance Organizational Performance with Expert Advice</p>
+                <a href="mailto:Support@ConsultBayan.com?subject=Book%20a%20Meeting" class="btn">Book a Free Consultation</a>
+            </div>
+            <div class="hero-graphic">
+                <img src="images/banner.jpg" alt="Business growth and strategy representation" class="responsive-img">
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>Expert Business Solutions</h2>
+            <div class="grid-container">
+                <article class="card">
+                    <img src="images/SPME.jpg" alt="Team reviewing strategic plans" class="responsive-img">
+                    <h3>Strategic Planning & Market Expansion</h3>
+                    <p>Development of scalable roadmaps, market penetration frameworks, and competitive positioning strategies.</p>
+                </article>
+                
+                <article class="card">
+                    <img src="images/EE.jpg" alt="Energy efficiency dashboard" class="responsive-img">
+                    <h3>Energy Efficiency</h3>
+                    <p>Assessment of facility energy consumption metrics, followed by the integration of sustainable, cost-reduction operational models.</p>
+                </article>
+                
+                <article class="card">
+                    <img src="images/OO.jpg" alt="Process reengineering flowchart" class="responsive-img">
+                    <h3>OPEX Optimization & Process Reengineering</h3>
+                    <p>Identification of operational inefficiencies and execution of lean methodologies to reduce overhead and stabilize profit margins.</p>
+                </article>
+                
+                <article class="card">
+                    <img src="images/RCA.jpg" alt="Regulatory compliance checklist" class="responsive-img">
+                    <h3>Regulatory & Compliance Auditing</h3>
+                    <p>Verification of operational alignment with local and international engineering and business standards.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <h2>Subscribe</h2>
+            <form action="/api/subscribe" method="POST" class="form-group inline-form">
+                <label for="sub-email" class="sr-only">Email Address</label>
+                <input type="email" id="sub-email" name="email" placeholder="Email Address" required>
+                <button type="submit" class="btn">Sign up</button>
+            </form>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-wrapper">
+                <form action="/api/contact" method="POST" class="form-group contact-form">
+                    <h3>Drop us a line!</h3>
+                    
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="contact-email">Email*</label>
+                    <input type="email" id="contact-email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit" class="btn">Send</button>
+                    <small>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</small>
+                </form>
+
+                <address class="contact-info">
+                    <h4>Bayan</h4>
+                    <p>New Cairo, Fifth Settlement<br>Cairo 11835</p>
+                    <a href="mailto:Support@ConsultBayan.com">Support@ConsultBayan.com</a>
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="footer-nav">
+            <a href="/privacy-policy">Privacy Policy</a>
+        </nav>
+        <div class="footer-details">
+            <p>Bayan | New Cairo, Fifth Settlement, Cairo</p>
+            <p>Copyright &copy; 2026 Bayan - All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
